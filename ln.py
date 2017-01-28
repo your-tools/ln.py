@@ -39,4 +39,8 @@ def main(args=None):
         else:
             os.remove(from_)
 
+    if os.path.exists(from_) and not os.path.islink(from_):
+        message = "Error: {} already exists and is not a symlink"
+        sys.exit(message.format(from_))
+
     ln(from_=from_, to=to, verbose=True)
