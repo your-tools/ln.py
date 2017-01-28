@@ -1,6 +1,9 @@
 ln.py
 =====
 
+.. image:: http://img.shields.io/pypi/v/ln.py.png
+  :target: https://pypi.python.org/pypi/ln.py
+
 You always get ``ln`` arguments in the wrong order?
 
 Then ``ln.py`` is for you.
