@@ -10,5 +10,11 @@ setup(name="ln.py",
         "console_scripts": [
           "lnp = ln:main",
         ]
-      }
+      },
+      classifiers=[
+          "Programming Language :: Python :: 3 :: Only",
+          "Environment :: Console",
+          "Topic :: System :: Shells",
+          "License :: OSI Approved :: BSD License",
+    ]
 )
