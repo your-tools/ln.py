@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "ln.py"
+version = "1.0.0"
+description = "symlinks made easier"
+readme = "README.rst"
+authors = ["Dimitri Merejkowsky <d.merej@gmail.com>"]
+license = "MIT"
+classifiers = [
+ "Environment :: Console",
+ "Topic :: System :: Shells",
+]
+repository = "https://github.com/dmerejkowsky/ln.py"
+packages = [
+  { include = "ln.py" },
+  { include = "test_ln.py", format="sdist" },
+]
+
+[tool.poetry.scripts]
+lnp = "ln:main"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.4.1"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
