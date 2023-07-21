@@ -34,7 +34,7 @@ then you con update the link to ``2.0`` this way:
 
 .. code-block:: console
 
-   lnp latest 2.0
+   > lnp latest 2.0
    1. latest -> 2.0
    2. 2.0 -> latest
    Which one? 1
